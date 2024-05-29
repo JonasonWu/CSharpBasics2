@@ -1,0 +1,29 @@
+1. When to use String vs. StringBuilder in C# ?
+	* String should be used when you have a fixed string that does not need any modifications.
+	* StringBuilder should be used when you are building a string by piecing together multiple strings into a single string.
+	* If you are concatenating strings in loops, you should use a StringBuilder. If you are concatenating 
+		many strings together, you should use a StringBuilder. If you have a fixed string that does not need 
+		concatenation or modification, then you should use string.
+2. What is the base class for all arrays in C#?
+	* The Array class is the base class for all arrays in C#. It is an abstract class that has the requirements
+		for being considered as an array in C#.
+3. How do you sort an array in C#?
+	* Use Arrays.Sort(myArray) to sort the myArray. The static method will sort the elements in the array alphabetically or numerically based on whether it is a string or a number respectively.
+	* If the array is of a user-defined object type, then you should create a comparer to determine the rules of the sort.
+		* The comparer should be a class that implements the IComparer interface. The IComparer interface will force an implementation of int Compare(object x, object y), allowing
+			the comparison to be defined.
+		* Simply call Arrays.Sort(myArray, comparerInstance) to perform the sort.
+4. What property of an array object can be used to get the total number of elements in
+an array?
+	* Use the Length property to get the total number of elements.
+		* i.e., array.Length
+5. Can you store multiple data types in System.Array?
+	* You can store multiple data types in System.Array by declaring an object array (or an array of a superclass/baseclass).
+	* Note that if you have a need to access specific methods based on the initializated type, you will need to perform a downcast.
+6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+	* Array.CopyTo() copies the source array into the array defined in the parameter. Array.Clone() does not take in any parameters and creates 
+		a full copy of the source array to be returned.
+	* Array.CopyTo() allows defining a specific index to start the copy process, while Array.Clone() always copies the entire array and returns it.
+	* Array.CopyTo() does not require type casting, while Array.Clone() requires a cast to the corresponding array type after being returned.
+	* Array.CopyTo() is slightly slower than Array.Clone(), assuming that both are copying over the data from one array to another array.
+

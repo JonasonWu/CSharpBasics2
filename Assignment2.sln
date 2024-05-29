@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34902.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticingArrays", "PracticingArrays\PracticingArrays.csproj", "{523A1262-46F7-4BC1-A017-BCA4EC15CCC5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01PracticingArrays", "01PracticingArrays", "{3AFC7DD8-6656-4416-8A95-517824313D18}"
+	ProjectSection(SolutionItems) = preProject
+		01PracticingArrays\QuestionsAnswers.txt = 01PracticingArrays\QuestionsAnswers.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02PracticingArrays", "02PracticingArrays\02PracticingArrays.csproj", "{75DB37D6-35BC-48EF-9539-8D068322D045}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{523A1262-46F7-4BC1-A017-BCA4EC15CCC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{523A1262-46F7-4BC1-A017-BCA4EC15CCC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{523A1262-46F7-4BC1-A017-BCA4EC15CCC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{523A1262-46F7-4BC1-A017-BCA4EC15CCC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DB37D6-35BC-48EF-9539-8D068322D045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DB37D6-35BC-48EF-9539-8D068322D045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DB37D6-35BC-48EF-9539-8D068322D045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DB37D6-35BC-48EF-9539-8D068322D045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
