@@ -8,7 +8,6 @@ namespace Assignment2
 {
     class ArrayShifting
     {
-
         public int[] GetArrayFromUser()
         { 
             bool showSample = false;
@@ -16,7 +15,7 @@ namespace Assignment2
             {
                 Console.WriteLine("Give an array of integers (space separated) on a single line.");
                 if (showSample) Console.WriteLine("Example: 1 2 3 4");
-                string[] values = Console.ReadLine().Split(" ");
+                string[] values = Console.ReadLine().Trim().Split(" ");
                 int[] integers = new int[values.Length];
                 for (int i = 0; i < values.Length; i++)
                 {
