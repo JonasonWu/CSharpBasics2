@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01PracticingArrays", "01Pra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02PracticingArrays", "02PracticingArrays\02PracticingArrays.csproj", "{11499F05-6AD6-4DD7-ADB4-B626E6F0D4BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03PracticingStrings", "03PracticingStrings\03PracticingStrings.csproj", "{8DD0A8C9-7C0D-4B15-8F49-A5462B3C6485}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{11499F05-6AD6-4DD7-ADB4-B626E6F0D4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11499F05-6AD6-4DD7-ADB4-B626E6F0D4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11499F05-6AD6-4DD7-ADB4-B626E6F0D4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD0A8C9-7C0D-4B15-8F49-A5462B3C6485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD0A8C9-7C0D-4B15-8F49-A5462B3C6485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD0A8C9-7C0D-4B15-8F49-A5462B3C6485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD0A8C9-7C0D-4B15-8F49-A5462B3C6485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
